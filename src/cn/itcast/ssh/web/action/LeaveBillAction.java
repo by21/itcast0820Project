@@ -69,12 +69,12 @@ public class LeaveBillAction extends ActionSupport implements ModelDriven<LeaveB
 	 * 保存/更新，请假申请启动
 	 * 
 	 * */
-	public String save2(){
+	public String saveTest(){
 		//执行保存,保存请假单
-		leaveBillService.saveLeaveBill2_1(leaveBill);
+		leaveBillService.saveLeaveBillTest(leaveBill);
 		long id = leaveBill.getId();
 		//根据请假单id，启动流程实例并完成初始任务
-		return "save";
+		return "saveTest";
 	}
 	
 	/**

@@ -42,6 +42,9 @@
             <result name="save" type="redirectAction">
         		<param name="actionName">leaveBillAction_home.action</param>
 			</result>
+			<result name="saveTest" type="redirectAction">
+        		<param name="actionName">workflowAction_startProcess2.action?id=${id}</param>
+			</result>
         </action>
     	
     	<action name="workflowAction_*" class="workflowAction" method="{1}">

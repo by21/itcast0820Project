@@ -39,13 +39,11 @@ public class LeaveBillServiceImpl implements ILeaveBillService {
 			//1: 执行update的操作，完成更新
 			leaveBillDao.updateLeaveBill(leaveBill);
 		}
-		
-				
 	}
 	
 	/**保存请假单,启动流程实例*/
 	@Override
-	public void saveLeaveBill2_1(LeaveBill leaveBill) {
+	public void saveLeaveBillTest(LeaveBill leaveBill) {
 		//获取请假单ID
 		Long id = leaveBill.getId();
 		if(id==null){

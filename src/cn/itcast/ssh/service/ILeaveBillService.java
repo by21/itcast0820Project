@@ -14,7 +14,7 @@ public interface ILeaveBillService {
 
 	void deleteLeaveBillById(Long id);
 
-	void saveLeaveBill2_1(LeaveBill leaveBill);
+	void saveLeaveBillTest(LeaveBill leaveBill);
 	
 	void saveLeaveBill2_2(Long id);
 

@@ -30,8 +30,10 @@
 		  <tr>
 		  	<td>
 			  		<div align="left" class="STYLE21">
-			  			请假开始:<s:textfield name="startTime" disabled="true" cssStyle="width: 200px;"/><br/>
-				 		请假结束:<s:textfield name="stopTime" disabled="true" cssStyle="width: 200px;"/><br/>
+			  			请假开始:<s:textfield name="startTime" disabled="true" cssStyle="width: 200px;">
+			  			     <s:param name="value"><s:date name="startTime" format="yyyy-MM-dd"/></s:param></s:textfield><br/>
+				 		请假结束:<s:textfield name="endTime" disabled="true" cssStyle="width: 200px;">
+			  			     <s:param name="value"><s:date name="endTime" format="yyyy-MM-dd"/></s:param></s:textfield><br/>
 				 		请假天数:<s:textfield name="days" disabled="true" cssStyle="width: 200px;"/><br/>
 				 		请假原因:<s:textfield name="content" disabled="true" cssStyle="width: 800px;"/><br/>
 				 		请假备注:<s:textarea name="remark" disabled="true" cols="30" rows="2"/><br/>

@@ -17,7 +17,7 @@ function  GetDateDiff(startDate,endDate)
 <title>请假管理</title>
 </head>
 <body>
- 	<form action="leaveBillAction_save2.action" method="POST">
+ 	<form action="leaveBillAction_saveTest.action" method="POST">
  		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
 		  <tr>
 		    <td height="30"><table width="100%" border="0" cellspacing="0" cellpadding="0">
